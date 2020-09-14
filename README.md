@@ -71,7 +71,7 @@ const decodedTx = unmarshalTx(encodedTx);
 
 Unfortunately, [cosmos/amino-js](https://github.com/cosmos/amino-js) and [myitcv/gopherjs](https://github.com/myitcv/gopherjs) work with only Go 1.12 (not the latest Go).
 
-Therefore, it is recommended to build this project using Docker based on Go 1.12.
+Therefore, it is recommended to build this project using Docker based on Go 1.12, if you don't want to change your local dev environment with the latest Go.
 ```bash
 docker build -t amino-js:latest .
 ```
